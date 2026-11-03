@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Form Input Data</h2>
+
+<form action="input.php" onsubmit="return validateForm()" method="post">
+    <label for="wil">Wilayah:</label><br>
+    <input type="text" id="wil" name="wilayah" value="" required><br>
+
+    <label for="faskes">Faskes:</label><br>
+    <input type="text" id="faskes" name="faskes" value="" required><br>
+
+    <label for="alamat">Alamat:</label><br>
+    <input type="text" id="alamat" name="alamat" value="" required><br>
+
+    <label for="long">Longitude:</label><br>
+    <input type="text" id="long" name="longitude" value="" required><br>
+
+    <label for="lat">Latitude:</label><br>
+    <input type="text" id="lat" name="latitude" value="" required><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<p id="informasi" style="color: red;"></p>
+
+
+</body>
+</html>
